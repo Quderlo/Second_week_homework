@@ -17,5 +17,6 @@ dic = {
 while True:
 	tmp = str(input())
 	if (tmp == 'Пока!'):
+		print('Пока :( я буду грустить')
 		break 
 	print(ask_user(dic, tmp))
